@@ -209,3 +209,11 @@ val dfUDF = namesDf.select(feet($"height") as "feet",
             mean($"spouses",$"divorces") as "mean",
             UpperWithFloor($"name") as "name")
 display(dfUDF)
+
+// COMMAND ----------
+
+var jsonNotHandsome = spark.read.option("multiline", "true")
+  .json("/FileStore/tables/brzydki.json")
+
+
+val Json3 = jsonNotHandsome.selectExpr("features")
