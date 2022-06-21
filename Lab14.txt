@@ -1,0 +1,11 @@
+Proces modelowania danych - proces analizowania oraz definiowania wszystkich danych i badanie 			    relacji między nimi.
+
+Cardinality - określa częstość występowania danych. Im mniejsza tym więcej powtórzeń w zbiorze
+
+Normalizacja - polega na modyfikacji struktury jej tabel w celu zlikwidowania nadmiarowości danych
+
+Denormalizacja - wprowadzenie kontrolowanej nadmierności do bazy danych w celu przyspieszenia 		 wykonywania na niej operacji (np. obsługiwania zapytań); dzięki denormalizacji bazy 		 unika się kosztownych operacji połączeń tabel.
+
+Data mart - tematyczna hurtownia danych. Datamarty są tworzone w celu zapewnienia wsparcia procesu 	    podejmowania decyzji osobom odpowiedzialnym za konkretny obszar biznesowy.
+
+Kostka OLAP - struktura danych, która pozwala na efektywną analizę. Przechowuje ona dane w sposób 	      przypominający wielowymiarowe arkusze kalkulacyjne a nie relacyjną bazę danych. Można 	      ją również zdefiniować jako zdolność manipulowania i analizowania danych z różnych 	      punktów widzenia. Rozmieszczenie danych w kostkach pokonuje ograniczenia relacyjnych 	      baz danych. 
